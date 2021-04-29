@@ -28,7 +28,6 @@ function fetchDoggos() {
 }
 
 async function getDogs() {
-  console.log('starting getDogs loop')
   for (let i = 0; i < 100; i++) {
     setTimeout(() => {
       fetchTodos()
