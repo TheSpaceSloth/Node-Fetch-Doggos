@@ -28,7 +28,7 @@ function fetchDoggos() {
 }
 
 async function getDogs() {
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 10; i++) {
     setTimeout(() => {
       fetchTodos()
     }, 2000 + ( i * 1000))
