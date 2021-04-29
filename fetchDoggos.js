@@ -26,9 +26,15 @@ function fetchDoggos() {
     console.error(err);
   });
 }
+
 async function getDogs() {
-  for (let i = 0; i < 10; i++) {
-    await fetchDoggos()
+  console.log('starting getDogs loop')
+  for (let i = 0; i < 100; i++) {
+    setTimeout(() => {
+      fetchTodos()
+    }, 2000 + ( i * 1000))
+    console.log(i)
   }
 }
+
 getDogs().then(r => console.log(r))
