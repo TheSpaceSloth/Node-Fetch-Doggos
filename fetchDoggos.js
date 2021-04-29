@@ -32,7 +32,6 @@ async function getDogs() {
     setTimeout(() => {
       fetchTodos()
     }, 2000 + ( i * 1000))
-    console.log(i)
   }
 }
 
