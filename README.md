@@ -1,6 +1,6 @@
 # Node-Fetch-Doggos
 
-### It'a a Node JS script that uses the Fetch API to get photos of random dogs from the Dog CEO API and then saves them directly to your computer.
+### It's a Node JS script that uses the Fetch API to get photos of random dogs from the Dog CEO API and then saves them directly to your computer.
 
 ### Currently, the script writes the image files to your computer with a randomly generated string for a name.  Future editions will use the source filename.
 
